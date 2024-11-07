@@ -1,0 +1,118 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 150;
+    background-color: #f4f7fb;
+
+    line-height: 1.6;
+}
+
+/* Container to hold everything */
+ .resume-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(255, 238, 0);
+    border-radius: 10px;
+    max-width: 1200px;
+    width: 80%; */
+    */
+  } .resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}  
+
+/* Left Section (Profile Picture, Objective & Certification) */
+ .left-section {
+    width: 30%;
+    
+    padding: 20px;
+    margin-top: 10%;
+    background-color: hwb(91 26% 45% / 0.774);
+    color: white;
+    border-radius: 15px;
+    border: 5px solid #e63946;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+} 
+
+
+ 
+
+
+ .left-section .profile-picture {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+} */
+
+
+
+/* Left Section Styling */
+.left-section {
+    background-color: #84b130;
+    color: rgb(177, 42, 105);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #e63946;
+}
+
+
+
+h1 { color: rgb(255, 115, 0);
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #af03c5;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #27c408;
+}
+
